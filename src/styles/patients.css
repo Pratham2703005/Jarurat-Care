@@ -1,0 +1,15 @@
+/* Minimal styles for patient cards and modal */
+.patient-card {
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+  border: 1px solid rgb(0,0,0);
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.modal-backdrop {
+  backdrop-filter: blur(3px);
+}
+
+.modal-panel {
+  box-shadow: 0 8px 30px rgba(2,6,23,0.6);
+}
